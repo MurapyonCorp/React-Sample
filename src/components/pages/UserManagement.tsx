@@ -12,6 +12,7 @@ export const UserManagement: FC = memo(() => {
   const { getUsers, users, loading } = useAllUsers();
   const { onSelectUser, selectedUser } = useSelectUsers();
   
+  
   useEffect(() => getUsers(), [])
 
   const onClickUser = useCallback((id: number) => {
