@@ -14,7 +14,7 @@ export const Router: FC = memo(() => {
         {/* <Route path="/" element={<Login />} /> */}
         <Route path="/React-Sample" element={<Login />} />
         {/* <Route path="/home" element={<HeaderLayout /> }> */}
-        <Route path="/React-Sample/home" element={<HeaderLayout /> }>
+        <Route path="/home" element={<HeaderLayout /> }>
           {homeRoutes.map((route) => (
             <Route key={route.path} index={route.index} path={route.path} element={route.children} />
           ))}
