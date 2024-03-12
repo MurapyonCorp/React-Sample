@@ -237,6 +237,7 @@
 
 // 暗黙的にtruthy
 "ABC", 10, [], {}
+
 // 暗黙的にfalsy
 0, undefined, null, false, NaN, ""
 
