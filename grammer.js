@@ -234,6 +234,12 @@
  */
 // truthy、falsyについて
 // "ABC" 0 10 undefined null false NaN "" [] {}
+
+// 暗黙的にtruthy
+"ABC", 10, [], {}
+// 暗黙的にfalsy
+0, undefined, null, false, NaN, ""
+
 const val = "ABC";
 if (val) {
   console.log("valはtruthyです");
